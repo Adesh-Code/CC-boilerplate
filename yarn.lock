@@ -1729,6 +1729,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@component-cloud/alert@npm:0.0.1, @component-cloud/alert@workspace:packages/alert":
+  version: 0.0.0-use.local
+  resolution: "@component-cloud/alert@workspace:packages/alert"
+  dependencies:
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+  languageName: unknown
+  linkType: soft
+
+"@component-cloud/button@workspace:packages/button":
+  version: 0.0.0-use.local
+  resolution: "@component-cloud/button@workspace:packages/button"
+  dependencies:
+    "@component-cloud/alert": "npm:0.0.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+  languageName: unknown
+  linkType: soft
+
 "@component-cloud/storybook@workspace:apps/storybook":
   version: 0.0.0-use.local
   resolution: "@component-cloud/storybook@workspace:apps/storybook"
